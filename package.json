@@ -30,5 +30,13 @@
     "jpegtran-bin": "^4.0.0",
     "optipng-bin": "^6.0.0"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Schislyaev/inno_lingvo.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Schislyaev/inno_lingvo/issues"
+  },
+  "homepage": "https://github.com/Schislyaev/inno_lingvo#readme",
   "description": ""
 }

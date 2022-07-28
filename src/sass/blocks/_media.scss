@@ -53,17 +53,32 @@
 }
 @media (max-width: 992px) {
     .btn {
+        font-size: 15px;
         &_login {
             margin-left: auto;
+            margin-right: 26px;
         }
     }
     .register {
+        padding-left: 49px;
+        h1 {
+            font-size: 32px;
+            line-height: 39px;
+        }
         &__menu {
+            &__btn-wrapper {
+                margin-left: auto;
+                margin-right: 40px;
+            }
+            &__wrapper {
+                // width: 750px;
+                margin: 0 auto;
+            }
             &__links {
                 display: none;
             }
             &_call {
-                margin-right: 53px;
+                // margin-right: 53px;
                 display: flex;
                 flex-direction: column;
                 justify-content: center;
@@ -81,6 +96,9 @@
                     border-radius: 20%;
                 }
             }
+        }
+        &__iphone {
+            top: 122px;
         }
     }
 }
