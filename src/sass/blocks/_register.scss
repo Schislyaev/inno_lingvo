@@ -1,0 +1,82 @@
+.register {
+    padding-top: 30px;
+    width: 100ev;
+    height: 865px;
+    background: url(../../img/register/wave.png) no-repeat bottom, url(../../img/register/line.png) no-repeat center/100%,linear-gradient(91.25deg, #BF2ED1 0.92%, #985CE4 51.04%, #6E8BF8 99.92%);
+    &__menu {
+        &__wrapper {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        &__links{
+            display: flex;
+            margin-left: 64px;
+            width: 584px;
+            justify-content: space-between;
+            align-items: center;
+            a {
+                text-decoration: none;
+                color: #fff;
+            }
+        }
+        &__btn-wrapper {
+            display: flex;
+            justify-content: space-between;
+        }
+        &_call {
+            display: none;
+        }
+    }
+    &__enter {
+        margin-top: 143px;
+        width: 685px;
+        height: 330px;
+        &-descr {
+            margin-top: 24px;
+            width: 557px;
+            font-size: 20px;
+            font-weight: 500;
+            line-height: 24px;
+            color: #fff;
+        }
+        &-wrapper {
+            margin-top: 42px;
+            display: flex;
+            align-items: center;
+        }
+        &-place {
+            margin-left: 13px;
+            font-size: 16px;
+            font-weight: 500;
+            color: #fff;
+            span {
+                font-weight: 700;
+            }
+        }
+    }
+    &__sticker {
+        position: absolute;
+        top: 320px;
+        left: 865px;
+        display: flex;
+        width: 129px;
+        height: 52px;
+        transform: rotate(-15deg);
+        font-size: 26px;
+        font-weight: 700;
+        color: #fff;
+        background: #C378F7;
+        border-radius: 10px;
+        align-items: center;
+        justify-content: center;
+    }
+    &__iphone {
+        position: absolute;
+        // object-fit: fill;
+        top: 181px;
+        left: 1150px;
+        width: 337px;
+        height: 684px;
+    }
+}

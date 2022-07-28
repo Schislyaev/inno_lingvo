@@ -1,0 +1,92 @@
+@media (max-width: 1490px){
+    .register {
+        &__iphone {
+            left: 900px;
+        }
+        &__sticker {
+            left: 700px;
+        }
+    }
+
+}
+@media (max-width: 1250px) {
+    .container {
+        max-width: 960px;
+    }
+    .btn {
+        &_login {
+            font-size: 10px;
+            margin-right: 5px;
+        }
+        &_register {
+            font-size: 10px;
+        }
+    }
+    .register {
+        &__menu {
+            &__links {
+                margin-left: 30px;
+                font-size: 10px;
+                justify-content: space-around;
+            }
+        }
+        &__enter {
+            margin-top: 100px;
+            font-size: 32px;
+            &-descr {
+                width: 500px;
+            }
+        }
+        &__iphone {
+            top: 300px;
+            left: 640px;
+            width: 337px;
+            height: 684px;
+        }
+        &__sticker {
+            width: 96px;
+            height: 39px;
+            left: 520px;
+            font-size: 20px;
+        }
+    }
+}
+@media (max-width: 992px) {
+    .btn {
+        &_login {
+            margin-left: auto;
+        }
+    }
+    .register {
+        &__menu {
+            &__links {
+                display: none;
+            }
+            &_call {
+                margin-right: 53px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                width: 44px;
+                height: 44px;
+                border-radius: 100%;
+                background-color: #fff;
+                .line {
+                    margin-top: 2px;
+                    width: 18px;
+                    // height: 2px;
+                    border: 2px solid #F2307F;
+                    background-color: $main-color;
+                    border-radius: 20%;
+                }
+            }
+        }
+    }
+}
+@media (max-width: 768px) {
+
+}
+@media (max-width: 576px) {
+
+}
