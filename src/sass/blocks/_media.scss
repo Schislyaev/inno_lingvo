@@ -1,4 +1,12 @@
+@media (min-width:1491px) {
+    .container {
+        width: 1160px;
+    }
+}
 @media (max-width: 1490px){
+    .container {
+        max-width: 1160px;
+    }
     .register {
         &__iphone {
             left: 900px;
@@ -24,6 +32,9 @@
     }
     .register {
         &__menu {
+            &__wrapper {
+                padding-right: 35px;
+            }
             &__links {
                 margin-left: 30px;
                 font-size: 10px;
@@ -38,15 +49,15 @@
             }
         }
         &__iphone {
-            top: 300px;
+            top: 350px;
             left: 640px;
-            width: 337px;
-            height: 684px;
+            width: 304px;
+            height: 616px;
         }
         &__sticker {
             width: 96px;
             height: 39px;
-            left: 520px;
+            left: 500px;
             font-size: 20px;
         }
     }
@@ -98,7 +109,11 @@
             }
         }
         &__iphone {
-            top: 122px;
+            top: 280px;
+            left: 617px;
+        }
+        &__sticker {
+            left: 433px;
         }
     }
 }
