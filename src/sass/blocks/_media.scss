@@ -116,10 +116,35 @@
             left: 433px;
         }
     }
+    .minutes {
+        padding: 0 20px;
+    }
 }
 @media (max-width: 768px) {
 
 }
 @media (max-width: 576px) {
+    .register {
+        padding: 10px;
+        &__menu {
+            &__btn-wrapper {
+                display: none;
+            }
+        }
+        &__enter {
+            margin-top: 52px;
+            width: 300px;
+            h1 {
+                font-size: 40px;
+                font-weight: 900;
+                line-height: 28px;
+                br {
+                    display: none;
+                }
+            }
+        }
+    }
+    .minutes {
 
+    }
 }

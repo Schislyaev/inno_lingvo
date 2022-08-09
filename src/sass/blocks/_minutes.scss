@@ -1,0 +1,47 @@
+.minutes {
+    &__wrapper {
+        display: flex;
+        margin-top: 150px;
+        &-content {
+            margin-right: 94px;
+            width: 580px;
+            &-block {
+                display: flex;
+                margin-bottom: 40px;
+                .block-circle {
+                   width: 84px;
+                   height: 84px; 
+                   border-radius: 100%;
+                   font-size: 40px;
+                   font-weight: 700;
+                   text-align: center;
+                   line-height: 80px;
+                   &_1 {
+                    color: #3477fa;
+                    background-color: #F1F7FE;
+                   }
+                   &_2 {
+                    color: #A747FB;
+                    background-color: #F7EEFF;
+                   }
+                   &_3 {
+                    color: #FA624E;
+                    background-color: #FEF0EE;
+                   }
+                }
+            }
+            &-descr {
+                margin-left: 23px;
+                width: 420px;
+                font-weight: 500;
+                font-size: 20px;
+            }
+        }
+    }
+    &__title {
+        margin-bottom: 23px;
+        font-weight: 900;
+        font-size: 40px;
+        line-height: 49px;
+    }
+}
