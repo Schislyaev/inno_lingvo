@@ -1,0 +1,40 @@
+.subscribe {
+    &__bg {
+        margin: 0 auto;
+        height: 360px;
+        background: url(../../img/subscribe/bg/image.png) no-repeat left bottom, linear-gradient(93.01deg, #BE30D2 6.8%, #7188F7 99.21%);
+        border-radius: 10px;
+    }
+    &__spot {
+        img {
+            position: absolute;
+            bottom: 53%;
+            left: 47%;
+            z-index: 5;
+        }
+    }
+    &__title {
+        position: relative;
+        padding-top: 77px;
+        padding-left: 40px;
+        font-size: 40px;
+        font-weight: 900;
+        line-height: 48px;
+        color: #fff;
+        z-index: 10;
+    }
+    &__wrapper {
+        margin-top: 63px;
+        display: flex;
+        align-items: center;
+    }
+    &-descr {
+        width: 730px;
+        margin-left: 50px;
+        margin-right: 30px;
+        color: #fff;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 24px;
+    }
+}

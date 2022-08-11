@@ -1,0 +1,23 @@
+.how {
+    &__wrapper {
+        margin-top: 62px;
+        display: flex;
+    }
+    &__img {
+        width: 506px;
+    }
+    &__title {
+        margin-top: 129px;
+        font-size: 40px;
+        font-weight: 900;
+    }
+    &__block {
+        margin-left: 66px;
+    }
+    &__descr {
+        margin-top: 11px;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 30px;
+    }
+}

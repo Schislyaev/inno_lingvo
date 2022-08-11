@@ -13,6 +13,15 @@
 .container {
     // width: 1160px;
     margin: 0 auto;
+    &_list, &_subscribe {
+        position: relative;
+        top: -180px;
+        width: 1160px;
+    }
+    &_video {
+        min-height: 616px;
+        background: url(../../img/video/bg/shape-13.png) no-repeat 14% 99%, url(../../img/video/bg/4.png) no-repeat left bottom, url(../../img/video/bg/5.png) no-repeat 90% center, url(../../img/video/bg/shape-15.png) no-repeat 19% 16%, url(../../img/video/bg/shape-14.png) no-repeat 90% 70%, url(../../img/video/bg/shape-8.png) no-repeat 9% 55%;
+    }
 }
 
 h1 {
@@ -26,3 +35,10 @@ h1 {
 @import 'blocks/buttons';
 @import 'blocks/media';
 @import 'blocks/minutes';
+@import 'blocks/how';
+@import 'blocks/modules';
+@import 'blocks/list';
+@import 'blocks/video';
+@import 'blocks/research';
+@import 'blocks/subscribe';
+@import 'blocks/footer';

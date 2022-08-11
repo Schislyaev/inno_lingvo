@@ -1,0 +1,22 @@
+.footer {
+    &__wrapper {
+        position: relative;
+        display: flex;
+        top: -90px;
+        justify-content: space-between;
+        font-size: 16px;
+        font-weight: 500;
+    }
+    &__social {
+        a {
+            margin-right: 12px;
+        }
+    }
+    &__policy {
+        margin: 0 auto;
+        text-align: center;
+    }
+    &__contacts {
+        text-align: right;
+    }
+}

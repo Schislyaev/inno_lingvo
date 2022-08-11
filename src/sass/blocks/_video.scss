@@ -1,0 +1,27 @@
+.video {
+    &__wrapper {
+        margin-top: -60px;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__watch {
+        display: flex;
+        align-items: center;
+        &-descr {
+            margin-left: 16px;
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 24px;
+        }
+    }
+    &__title {
+        font-size: 40px;
+        font-weight: 900;
+    }
+    &__block {
+        margin: 80px auto;
+        width: 782px;
+        height: 400px;
+        z-index: 10;
+    }
+}
